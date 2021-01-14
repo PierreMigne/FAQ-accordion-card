@@ -1,7 +1,7 @@
 const allArrow = document.querySelectorAll('.arrow')
 const allItems = document.querySelectorAll('li')
 const allP = document.querySelectorAll('p')
-const allTitles = document.querySelectorAll('h4')
+const allTitles = document.querySelectorAll('h2')
 
 
 allItems.forEach(item => {

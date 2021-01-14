@@ -5,8 +5,9 @@
 }
 body {
     background-image: linear-gradient(to top, hsl(240, 73%, 65%),hsl(273, 75%, 66%));
-    height: 100vh;
+    min-height: 100vh;
     font-family: Kumbh Sans, sans-serif;
+    padding-top: 150px;
 }
 .divider {
     background-color: hsl(240, 5%, 91%);
@@ -17,10 +18,9 @@ body {
 .container {
     position: relative;
     background-color: white;
-    margin: 150px 25px;
+    margin: 0 25px;
     border-radius: 30px;
 }
-
 .contPictures {
     position: absolute;
     width: 300px;
@@ -79,20 +79,20 @@ ul img {
 ul img.active {
     transform: rotate(180deg) translate(50%, 50%);
 }
-h4 {
+h2 {
     font-weight: 400;
     color: hsl(237, 12%, 33%);
     font-size: 14px;
     padding: 10px 0;
 }
-h4:hover {
+h2:hover {
     color: hsl(14, 88%, 65%);
 }
-h4.active {
+h2.active {
     font-weight: 700;
     color: hsl(238, 29%, 16%);
 }
-h4.active:hover {
+h2.active:hover {
     color: hsl(14, 88%, 65%);
 }
 p {
@@ -114,7 +114,7 @@ p.active {
     .container {
         overflow: hidden;
         max-width: 70%;
-        margin: 150px auto;
+        margin: 0 auto;
     }
     .contenu {
         width: 50%;
